@@ -16,14 +16,6 @@ inputField.addEventListener("keyup", (e) => {
   }
 });
 
-locationBtn.addEventListener("click", () => {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(onSuccess, onError);
-  } else {
-    alert("Your browser not support geolocation api");
-  }
-});
-
 function requestApi(city) {
   api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
   fetchData();
