@@ -8,7 +8,7 @@ const wrapper = document.querySelector(".wrapper"),
   arrowBack = wrapper.querySelector("header i"),
   suggestions = inputPart.querySelector(".suggestions");
 
-const apiKey = "66c990c39d72140acd942316c0d6f516"; // Replace with your actual API key
+const apiKey = "66c990c39d72140acd942316c0d6f516"; // Substitua pela sua chave Api
 let api;
 let debounceTimer;
 
