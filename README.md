@@ -22,7 +22,7 @@
 
 - Abra index.html;
   
-- Cole API Key;
+- Cole API Key no js;
   
 - Digite cidade;
 
